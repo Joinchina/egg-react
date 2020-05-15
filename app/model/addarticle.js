@@ -10,7 +10,7 @@ module.exports = app => {
     "article_cointent" : String,
     "introduce" :String,
     "addTime" :String,
-    "view_count" : Number
+    "view_count" : Number,
   })
 
   return mongoose.model('Article', ArticleSchema);
